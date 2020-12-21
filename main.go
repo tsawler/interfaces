@@ -31,7 +31,7 @@ func main() {
 	}
 	fmt.Println(fmt.Sprintf("The dog's name is %s and he is a %s.", dog.Name, dog.Breed))
 
-	// Create a gorilla variable of type Gorilla. Again, we create it as a pointer.
+	// Create a gorilla variable of type Gorilla.
 	gorilla := Gorilla{
 		Name:          "Geraldine",
 		Color:         "black",
